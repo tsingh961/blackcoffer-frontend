@@ -1,0 +1,62 @@
+.services-section{
+  position: relative;
+  top: -8rem;
+  margin: auto;
+  height: 100%;
+  width: 90%;
+  background: transparent;
+}
+
+.services-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+}
+
+.services-section h4{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.about-us-section{
+  margin: auto;
+  height: 100vh;
+  width: 86%;
+  background: transparent;
+}
+
+.about-us-section h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+
+.about-us-section h4{
+  color: lightgray;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-decoration: none;
+  margin-bottom: 1rem;;
+}
+.usp-section{
+  display: block;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.usp-section h2{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
