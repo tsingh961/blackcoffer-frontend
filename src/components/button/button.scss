@@ -1,23 +1,23 @@
-@import url(../../index.css);
 
-.button{
+.button-container .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #ffffff;
     padding: 10px 20px;
-    border: 0.5px solid;
-    background-color: #1c0f0f43;
-    border-image-slice: 1;
-    border-image-source: radial-gradient(92.83% 92.83% at 5.66% 90.23%, #AEAEAE 0%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid #838181;
+    margin: 5px;
+    background-color: #48444437;
     cursor: pointer;
-    backdrop-filter: blur(4px);
     font-size: 16px;
     font-weight: 100;
-    opacity: 0px;
-    transition: background-color 0.3s;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF1A;
 }
 
 
-// top: 25px;
-// left: 1214px;
-// padding: 5px 0px 0px 0px;
-// gap: 10px;
-// border: 0.5px 0px 0px 0px;

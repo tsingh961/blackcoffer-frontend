@@ -1,6 +1,8 @@
 import React from "react";
 import "./banner.scss";
 import Button from "../button/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Banner = () => {
   return (
@@ -15,12 +17,21 @@ const Banner = () => {
               <a href="#">Insights &gt;</a>
               <a href="#">Careers &gt;</a>
             </div>
-            
-            <Button btnText="Contact Us" />
+            <Button
+              icon={
+                <div style={{ fontSize: "20px", color: "white" }}>
+                  <FontAwesomeIcon icon={faPhone} />
+                </div>
+              }
+              btnText={"Contact Us"}
+            />
           </div>
           <div className="banner-text">
             <div className="left">
-              <h1>TOGETHER WE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REINVENTED</h1>
+              <h1>
+                TOGETHER WE
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REINVENTED
+              </h1>
             </div>
             <div className="right">
               <p>
