@@ -3,8 +3,8 @@ import "./aboutus.scss";
 
 function AboutUs() {
   return (
-      <div className="about-us-grid">
-        <div className="items">
+      <div className="about-us">
+        {/* <div className="items">
           <div className="item" id="box1">
             box1
           </div>
@@ -32,7 +32,7 @@ function AboutUs() {
           <div className="item" id="box9">
             box9
           </div>
-        </div>
+        </div> */}
       </div>
   );
 }

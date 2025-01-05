@@ -21,14 +21,14 @@ function App() {
       <div className="services-section">
         <h4>Services</h4>
         <div className="services-grid">
-          <ServiceCard heading="Big Data & Analytics" text="" />
-          <ServiceCard heading="Consulting" text="" />
-          <ServiceCard heading="HR & staffing" text="" />
-          <ServiceCard heading="Cybersecurity" text="" />
-          <ServiceCard heading="Consultancy" text="" />
-          <ServiceCard heading="Sustainability" text="" />
-          <ServiceCard heading="Cloud" text="" />
-          <ServiceCard heading="Metaverse" text="" />
+          <ServiceCard imagePath = "ServiceImages/1.png" heading="Big Data & Analytics" text="" />
+          <ServiceCard imagePath = "ServiceImages/2.png" heading="Consulting" text="" />
+          <ServiceCard imagePath = "ServiceImages/3.png" heading="HR & staffing" text="" />
+          <ServiceCard imagePath = "ServiceImages/4.png" heading="Cybersecurity" text="" />
+          <ServiceCard imagePath = "ServiceImages/5.png" heading="Consultancy" text="" />
+          <ServiceCard imagePath = "ServiceImages/6.png" heading="Sustainability" text="" />
+          <ServiceCard imagePath = "ServiceImages/7.png" heading="Cloud" text="" />
+          <ServiceCard imagePath = "ServiceImages/8.png" heading="Metaverse" text="" />
         </div>
       </div>
       <div className="about-us-section">
@@ -36,6 +36,7 @@ function App() {
         <h3>Blackcoffer Unfolds Solutions To Everything</h3>
         <AboutUs />
       </div>
+      {/* <br /><br /><br /> */}
       <div className="usp-section">
         <h2>What Makes Us Different</h2>
         <USP />
